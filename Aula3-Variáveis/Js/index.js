@@ -41,3 +41,14 @@ var x = 10;
 }
 
 document.getElementById("texto2").innerHTML = x;
+
+//Utilizando a declaração Const = Como o nome diz a variável declarada como Const não permite mudança de nenhuma maneira dentro do código
+
+const soma = (10 * 9);
+
+{
+    const soma = "100000";
+}
+
+document.getElementById("resultadosoma").innerHTML = "O resultado da soma é: " + soma;
+
