@@ -15,3 +15,11 @@ document.getElementById("exemplo1").innerHTML = "Quando escrevemos dois números
 let somadenumeros;
 somadenumeros = ( 2 + 8 );
 document.getElementById("exemplo2").innerHTML = "Quando escrevemos dois números dentro de parênteses, mas sem aspas duplas o javaScript entende isso como uma soma. Como nesse exemplo: " + somadenumeros;
+
+let nome;
+let idade;
+
+nome = "Luan";
+idade = "34";
+
+document.getElementById("apresentacao").innerHTML = "Meu nome é " + nome + ".Tenho " + idade + " anos de idade ";
