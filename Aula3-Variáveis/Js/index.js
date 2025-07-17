@@ -17,3 +17,27 @@ f = d + e;
 
 
 document.getElementById("soma").innerHTML = "A soma dos elementos é: " + f;
+
+var nome, sobrenome;
+nome = "Luan";
+sobrenome = "Patric de Castro";
+
+document.getElementById("texto").innerHTML = "Meu nome é: " + nome + " " + sobrenome;
+
+//Declarando variável com let não é possível redeclarar a variável
+
+let planeta = "terra";
+
+{
+   let planeta = "marte";
+}
+
+document.getElementById("corpoceleste").innerHTML = "O planeta é " + planeta;
+
+var x = 10;
+
+{
+    var x = 2;
+}
+
+document.getElementById("texto2").innerHTML = x;
