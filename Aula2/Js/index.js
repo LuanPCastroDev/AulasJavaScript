@@ -1,3 +1,8 @@
+//Aula sobre sintaxe
+/*
+Inserindo comentário
+*/
+
 let a, b, c;
 a = 100;
 b = 1;
