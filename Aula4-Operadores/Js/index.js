@@ -19,3 +19,12 @@ document.getElementById("resultadoinclemento").innerHTML = "Após o incremento d
 
 totaldecremento = --valor1;
 document.getElementById("resultadodecremento").innerHTML = "Após o decremento de 1 no valor definido para o valor já existente. O valor ficou:  " + totaldecremento;
+
+comparacao = (valor1 == valor2);
+document.getElementById("resultadocomparacao").innerHTML = "O resultado da comparação é  " + comparacao;
+
+var valor3, valor4;
+valor3 = 100;
+valor4 = 100;
+comparacao2 = (valor3 == valor4);
+document.getElementById("resultadocomparacao2").innerHTML = "O resultado da comparação é  " + comparacao2 + ". Porque os números informados são: " + valor3 + " = " + valor4;
