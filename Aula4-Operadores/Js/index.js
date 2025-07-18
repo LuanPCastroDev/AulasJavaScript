@@ -13,3 +13,9 @@ document.getElementById("resultadodivisao").innerHTML = "o resultado da divisão
 
 totalmultiplicacao = valor1 * valor2;
 document.getElementById("resultadomultiplicacao").innerHTML = "o resultado da multiplicação é =  " + totalmultiplicacao;
+
+totalincremento = ++valor1;
+document.getElementById("resultadoinclemento").innerHTML = "Após o incremento de 1 no valor definido para o valor já existente. O valor ficou:  " + totalincremento;
+
+totaldecremento = --valor1;
+document.getElementById("resultadodecremento").innerHTML = "Após o decremento de 1 no valor definido para o valor já existente. O valor ficou:  " + totaldecremento;
