@@ -41,3 +41,10 @@ valor8 = 1;
 
 menor = (valor7 < valor8);
 document.getElementById("resultadomenor").innerHTML = "O resultado da comparação é " + menor + ".Porque o valor " + valor7 + " é maior que o valor " + valor8;
+
+var idade, eleitor;
+idade = 18;
+eleitor = (idade < 18) ? "Não eleitor" : "Sim, eleitor";
+
+respostaeleitor = eleitor;
+document.getElementById("resultadoeleitor").innerHTML = respostaeleitor;
