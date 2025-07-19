@@ -48,3 +48,10 @@ eleitor = (idade < 18) ? "Não eleitor" : "Sim, eleitor";
 
 respostaeleitor = eleitor;
 document.getElementById("resultadoeleitor").innerHTML = respostaeleitor;
+
+var idadepessoa, resultado;
+idadepessoa = 70;
+resultado = (idadepessoa > 65 || idadepessoa < 120);
+{
+    document.getElementById("resultadoidoso").innerHTML = "Pessoa Idosa";    
+}
