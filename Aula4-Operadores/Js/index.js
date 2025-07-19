@@ -28,3 +28,16 @@ valor3 = 100;
 valor4 = 100;
 comparacao2 = (valor3 == valor4);
 document.getElementById("resultadocomparacao2").innerHTML = "O resultado da comparação é  " + comparacao2 + ". Porque os números informados são: " + valor3 + " = " + valor4;
+
+var valor5, valor6;
+valor5 = "1000";
+valor6 = 1000;
+comparacaotipo = (valor5 === valor6);
+document.getElementById("resultadotipo").innerHTML = "O resultado da comparação é  " + comparacaotipo + ". Porque os números informados são: " + valor5 + " = " + valor6 + ", mas o primeiro valor foi informado como texto.";
+
+var valor7, valor8;
+valor7 = 2;
+valor8 = 1;
+
+menor = (valor7 < valor8);
+document.getElementById("resultadomenor").innerHTML = "O resultado da comparação é " + menor + ".Porque o valor " + valor7 + " é maior que o valor " + valor8;
