@@ -23,3 +23,9 @@ var cotacaoDolar = 5.58;
 var resultado = converterDolar(valorReal, cotacaoDolar);
 
 document.getElementById("realdolarconversao").innerHTML = "O resultado da conversão em dólar é: R$ " + resultado; 
+
+function celsiusFahrenheint (celsius) {
+    return (9 / 5 * celsius) + 32;
+}
+
+document.getElementById("convertercelsius").innerHTML = "A temperatura de 100° celsius corresponde a " + celsiusFahrenheint(100) + "°F";
