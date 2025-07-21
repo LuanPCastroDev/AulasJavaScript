@@ -102,4 +102,4 @@ const carros = [
 ];
 
 console.log(carros);
-carros.buzina();
+console.log(carros.buzina);
