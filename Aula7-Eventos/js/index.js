@@ -31,3 +31,8 @@ function limpaTexto () {
 function mudou () {
     console.log('mudou');
 }
+
+function teclaPressionada () {
+    let input = document.getElementById("campoTexto").value;
+    console.log(input);
+}
