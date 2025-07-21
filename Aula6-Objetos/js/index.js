@@ -6,7 +6,8 @@ const carros = [
     cor: "Prata",
     tipo: "Sedan",
     motor: "2.0",
-    combustivel: "Gasolina"
+    combustivel: "Gasolina",
+    buzina: function () { alert('Biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii') }
   },
   {
     marca: "Honda",
@@ -15,7 +16,8 @@ const carros = [
     cor: "Preto",
     tipo: "Sedan",
     motor: "1.5",
-    combustivel: "Gasolina"
+    combustivel: "Gasolina",
+    buzina: function () { alert('Biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii') }
   },
   {
     marca: "Ford",
@@ -24,7 +26,8 @@ const carros = [
     cor: "Azul",
     tipo: "Sedan",
     motor: "2.5",
-    combustivel: "Flex"
+    combustivel: "Flex",
+    buzina: function () { alert('Biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii') }
   },
   {
     marca: "Chevrolet",
@@ -33,7 +36,8 @@ const carros = [
     cor: "Branco",
     tipo: "Sedan",
     motor: "1.4",
-    combustivel: "Gasolina"
+    combustivel: "Gasolina",
+    buzina: function () { alert('Biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii') }
   },
   {
     marca: "Volkswagen",
@@ -42,7 +46,8 @@ const carros = [
     cor: "Vermelho",
     tipo: "Sedan",
     motor: "1.4",
-    combustivel: "Gasolina"
+    combustivel: "Gasolina",
+    buzina: function () { alert('Biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii') }
   },
   {
     marca: "BMW",
@@ -51,7 +56,8 @@ const carros = [
     cor: "Cinza",
     tipo: "Sedan",
     motor: "2.0",
-    combustivel: "Gasolina"
+    combustivel: "Gasolina",
+    buzina: function () { alert('Biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii') }
   },
   {
     marca: "Audi",
@@ -60,7 +66,8 @@ const carros = [
     cor: "Preto",
     tipo: "Sedan",
     motor: "2.0",
-    combustivel: "Gasolina"
+    combustivel: "Gasolina",
+    buzina: function () { alert('Biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii') }
   },
   {
     marca: "Mercedes-Benz",
@@ -69,7 +76,8 @@ const carros = [
     cor: "Branco",
     tipo: "Sedan",
     motor: "2.0",
-    combustivel: "Gasolina"
+    combustivel: "Gasolina",
+    buzina: function () { alert('Biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii') }
   },
   {
     marca: "Nissan",
@@ -78,7 +86,8 @@ const carros = [
     cor: "Prata",
     tipo: "Sedan",
     motor: "2.5",
-    combustivel: "Gasolina"
+    combustivel: "Gasolina",
+    buzina: function () { alert('Biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii') }
   },
   {
     marca: "Hyundai",
@@ -87,8 +96,10 @@ const carros = [
     cor: "Azul",
     tipo: "Sedan",
     motor: "2.0",
-    combustivel: "Gasolina"
+    combustivel: "Gasolina",
+    buzina: function () { alert('Biiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii') }
   }
 ];
 
 console.log(carros);
+carros.buzina();
