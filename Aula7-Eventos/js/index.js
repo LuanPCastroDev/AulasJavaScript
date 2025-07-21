@@ -8,3 +8,13 @@ function eventoDblClick () {
     alert("Você realizou um clique duplo no botão.");
     document.body.style.backgroundColor = "blue";
 }
+
+function mudarVermelho () {
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "red";
+}
+
+function mudarPreto () {
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "black";
+}
