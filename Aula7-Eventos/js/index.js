@@ -24,6 +24,10 @@ function adicionaTexto () {
     console.log('O mouse se moveu dentro da div.<br>')
 }
 
-function campoFocado () {
+function limpaTexto () {
     document.getElementById("campoTexto").value = "";
+}
+
+function mudou () {
+    console.log('mudou');
 }
