@@ -18,3 +18,8 @@ function mudarPreto () {
     let div = document.getElementById("teste");
     div.style.backgroundColor = "black";
 }
+
+function adicionaTexto () {
+    let p = document.getElementById("teste");
+    p.append('O mouse se moveu dentro da div.<br>')
+}
