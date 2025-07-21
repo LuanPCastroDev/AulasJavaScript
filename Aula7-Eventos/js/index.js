@@ -23,3 +23,7 @@ function adicionaTexto () {
     let p = document.getElementById("teste");
     p.append('O mouse se moveu dentro da div.<br>')
 }
+
+function campoFocado () {
+    document.getElementById("campoTexto").value = "";
+}
