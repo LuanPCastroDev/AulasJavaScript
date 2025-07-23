@@ -54,4 +54,9 @@ document.getElementById("tamanho").innerHTML = "A matriz criada possui " + pesso
 console.log(pessoa);
 
 document.getElementById("imprimirmatriz").innerHTML = pessoa;
-document.getElementById("imprimirmatriz2").innerHTML = pessoa.join(" -- ");
+document.getElementById("imprimirmatriz2").innerHTML = pessoa.join(" - ");
+
+pessoa.pop();
+document.getElementById("imprimirmatriz3").innerHTML = pessoa.join(" - ");
+pessoa.shift();
+document.getElementById("imprimirmatriz4").innerHTML = pessoa.join(" - ");
