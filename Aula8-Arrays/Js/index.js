@@ -44,3 +44,9 @@ const pessoa = ["Luan", "Patric", "de", "Castro", "34"];
 
 alert(pessoa.length);
 document.getElementById("tamanho").innerHTML = "A matriz criada possui " + pessoa.length + " elementos";
+pessoa.push("brasileiro");
+pessoa.push("desenvolvedor");
+pessoa.push("estudando para concurso");
+
+
+document.getElementById("tamanho").innerHTML = "A matriz criada possui " + pessoa.length + " elementos";
