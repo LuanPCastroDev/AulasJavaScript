@@ -76,3 +76,6 @@ const lista3 = ["pão"];
 
 const superlista = lista1.concat(lista2, lista3);
 document.getElementById("concatenandolista").innerHTML = "Os elementos da lista são: " + superlista;
+
+const novalista = superlista.slice(2); 
+document.getElementById("concatenandolista2").innerHTML = "Os elementos da lista são: " + novalista;
