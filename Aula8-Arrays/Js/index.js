@@ -52,3 +52,6 @@ pessoa.push("estudando para concurso");
 document.getElementById("tamanho").innerHTML = "A matriz criada possui " + pessoa.length + " elementos";
 
 console.log(pessoa);
+
+document.getElementById("imprimirmatriz").innerHTML = pessoa;
+document.getElementById("imprimirmatriz2").innerHTML = pessoa.join(" -- ");
