@@ -60,3 +60,12 @@ pessoa.pop();
 document.getElementById("imprimirmatriz3").innerHTML = pessoa.join(" - ");
 pessoa.shift();
 document.getElementById("imprimirmatriz4").innerHTML = pessoa.join(" - ");
+
+pessoa.unshift("Luan");
+pessoa.unshift("Estudando para ingressar no mercado de Ti");
+
+pessoa.splice(1, 0, "Lendo o livro Quem pensa enriquece");
+document.getElementById("imprimirmatriz5").innerHTML = pessoa.join(" - ");
+
+delete pessoa[0];
+document.getElementById("imprimirmatriz6").innerHTML = pessoa.join(" - ");
