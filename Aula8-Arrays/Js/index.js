@@ -84,4 +84,8 @@ const livOrdem = livros.sort();
 document.getElementById("livrosOrdem").innerHTML = "Os livros em ordem alfabética são: " + livOrdem;
 
 const livrosReverso = livros.reverse();
-document.getElementById("livrosReverso").innerHTML = "Os livros em ordem alfabética são: " + livrosReverso
+document.getElementById("livrosReverso").innerHTML = "Os livros em ordem alfabética são: " + livrosReverso;
+
+const numeros = [40, 100, 1, 25, 89, 123, 500];
+numeros.sort(function (a, b) { return b - a } );
+document.getElementById("imprimenumero").innerHTML = numeros;
