@@ -50,3 +50,5 @@ pessoa.push("estudando para concurso");
 
 
 document.getElementById("tamanho").innerHTML = "A matriz criada possui " + pessoa.length + " elementos";
+
+console.log(pessoa);
