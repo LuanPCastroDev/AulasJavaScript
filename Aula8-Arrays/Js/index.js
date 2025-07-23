@@ -79,3 +79,9 @@ document.getElementById("concatenandolista").innerHTML = "Os elementos da lista 
 
 const novalista = superlista.slice(2); 
 document.getElementById("concatenandolista2").innerHTML = "Os elementos da lista são: " + novalista;
+
+const livOrdem = livros.sort();
+document.getElementById("livrosOrdem").innerHTML = "Os livros em ordem alfabética são: " + livOrdem;
+
+const livrosReverso = livros.reverse();
+document.getElementById("livrosReverso").innerHTML = "Os livros em ordem alfabética são: " + livrosReverso
