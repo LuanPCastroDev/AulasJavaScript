@@ -38,3 +38,9 @@ document.getElementById("livro7").innerHTML = "Livro: " + livros[7];
 document.getElementById("livro8").innerHTML = "Livro: " + livros[8];
 document.getElementById("livro9").innerHTML = "Livro: " + livros[9];
 document.getElementById("livro10").innerHTML = "Livro: " + livros[10];
+
+
+const pessoa = ["Luan", "Patric", "de", "Castro", "34"];
+
+alert(pessoa.length);
+document.getElementById("tamanho").innerHTML = "A matriz criada possui " + pessoa.length + " elementos";
