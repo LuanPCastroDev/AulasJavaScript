@@ -89,3 +89,17 @@ document.getElementById("livrosReverso").innerHTML = "Os livros em ordem alfabé
 const numeros = [40, 100, 1, 25, 89, 123, 500];
 numeros.sort(function (a, b) { return b - a } );
 document.getElementById("imprimenumero").innerHTML = numeros;
+
+function maiorNumero (numeros) {
+    return Math.max.apply(null, numeros);
+    
+}
+
+
+function menorNumero (numeros) {
+    return Math.min.apply(null, numeros);
+    
+}
+document.getElementById("imprimeMaiorNumero").innerHTML = "O maior número da matriz é: " + maiorNumero(numeros);
+document.getElementById("imprimeMenorNumero").innerHTML = "O menor número da matriz é: " + menorNumero(numeros);
+
