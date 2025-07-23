@@ -69,3 +69,10 @@ document.getElementById("imprimirmatriz5").innerHTML = pessoa.join(" - ");
 
 delete pessoa[0];
 document.getElementById("imprimirmatriz6").innerHTML = pessoa.join(" - ");
+
+const lista1 = ["arroz"];
+const lista2 = ["leite"];
+const lista3 = ["pão"];
+
+const superlista = lista1.concat(lista2, lista3);
+document.getElementById("concatenandolista").innerHTML = "Os elementos da lista são: " + superlista;
