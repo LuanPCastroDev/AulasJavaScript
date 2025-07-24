@@ -22,17 +22,14 @@ function verificaCor() {
 
 function verificaNumero() {
     let numero = document.getElementById("numero").value;
+    numero = Number(numero);
 
-    switch(numero) {
-        case "numero <= 10":
-            document.getElementById("testenumero").innerHTML = "O número informado é menor ou igual a 10. Você digitou: " + numero;
-            break;
-        case "numero > 10" || "numero <= 1000":
-            document.getElementById("testenumero").innerHTML = "O número informado é maior que 10 ou menor ou igual a 1000. Você digitou: " + numero;
-            break;
-        default:
-            document.getElementById("testenumero").innerHTML = "Você digitou: " + numero;
-            break;
+    if (numero <= 10) {
+        document.getElementById("testenumero").innerHTML = "O número informado é menor ou igual a 10. Você digitou: " + numero;
+    } else if (numero > 10 && numero <= 1000) {
+        document.getElementById("testenumero").innerHTML = "O número informado é maior que 10 e menor ou igual a 1000. Você digitou: " + numero;
+    } else {
+        document.getElementById("testenumero").innerHTML = "Você digitou: " + numero;
     }
 }
 
