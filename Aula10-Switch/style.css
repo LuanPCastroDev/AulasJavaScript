@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 body {
-    align-items: center;
     background-color: aqua;
+}
+
+.formulario {
+    justify-content: center;
+    align-items: right;
 }
