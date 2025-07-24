@@ -7,5 +7,9 @@ for (let j = 1000; j >= 0; j--) {
 }
 
 for (let i = 1900; i <= 2025; i++) {
-    document.getElementById("ano").innerHTML += "<option value =  " + i + " ";
+    document.getElementById("ano").innerHTML += "<option value =' " + i + "'> " + i + "</option>";
+}
+
+for (let i = 2025; i >= 1900; i--) {
+    document.getElementById("anoDecrescente").innerHTML += "<option value =' " + i + "'> " + i + "</option>";
 }
