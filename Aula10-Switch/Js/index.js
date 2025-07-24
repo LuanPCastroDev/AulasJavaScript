@@ -25,13 +25,13 @@ function verificaNumero() {
 
     switch(numero) {
         case "numero <= 10":
-            document.getElementById("numero").innerHTML = "O número informado é menor ou igual a 10. Você digitou: " + numero;
+            document.getElementById("testenumero").innerHTML = "O número informado é menor ou igual a 10. Você digitou: " + numero;
             break;
-        case "numero > 10 || numero <= 1000":
-            document.getElementById("numero").innerHTML = "O número informado é maior que 10 ou menor ou igual a 1000. Você digitou: " + numero;
+        case "numero > 10" || "numero <= 1000":
+            document.getElementById("testenumero").innerHTML = "O número informado é maior que 10 ou menor ou igual a 1000. Você digitou: " + numero;
             break;
         default:
-            document.getElementById("numero").innerHTML = "Você digitou: " + numero;
+            document.getElementById("testenumero").innerHTML = "Você digitou: " + numero;
             break;
     }
 }
