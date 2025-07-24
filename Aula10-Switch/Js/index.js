@@ -15,8 +15,8 @@ function verificaCor() {
             document.body.style.backgroundColor = "green";
             break;
         default:
-            document.getElementById("teste").innerHTML = "Nenhuma cor disponível"        
-        
+            document.getElementById("teste").innerHTML = "Nenhuma cor disponível para " + cor;        
+            break;
     }
 }
 
