@@ -15,11 +15,15 @@ if (hora < 12) {
     alert('Boa Noite!');
 }
 
-function verificar () {
+function verificar() {
     let nome = document.getElementById("nome").value;
-    if(nome == " " || nome == null) {
+    if(nome == "" || nome == null) {
         let p = document.getElementById("teste"); 
         p.innerHTML = "O campo não pode ser vazio";
         p.style.color = "red"; 
+    } else {
+        let p = document.getElementById("teste"); 
+        p.innerHTML = "Parabéns! Tudo certo! ";
+        p.style.color = "green";
     }
 }
