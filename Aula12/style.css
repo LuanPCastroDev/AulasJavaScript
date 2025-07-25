@@ -8,10 +8,12 @@ h1 {
 .botaoinicio {
     background-color: green;
     border-radius: 5px;
+    padding: 30px;
 }
 
 .botaoparar {
     background-color: red;
     border-radius: 5px;
+    padding: 30px;
 }
 
