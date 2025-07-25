@@ -3,5 +3,13 @@
 h1 {
     font-size: 20px;
     text-align: center;
-    
 }
+
+.botaoinicio {
+    background-color: green;
+}
+
+.botaoparar {
+    background-color: red;
+}
+
