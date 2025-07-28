@@ -333,3 +333,24 @@ const livros = [
 
 let texto = JSON.stringify(livros);
 document.getElementById('areaTexto').innerHTML = texto;
+
+function buscarCep() {
+    let input = document.getElementById('cep').value;
+    
+    const ajax = new XMLHttpRequest();
+    ajax.open('Get', 'https://viacep.com.br/ws/' + input + '/json');
+    ajax.send();
+    
+    ajax.onload = function() {
+        let obj = json.parse(this.responseText);
+
+        let logradouro = obj.logradouro;
+        let cidade = obj.cidade;
+        let estado = obj.uf;
+        
+        document.getElementById('textoCep').innerHTML = "Logradouro: " + logradouro + 
+        "<br> Cidade: " + cidade + "<br> Estado: " + estado;
+    }
+
+
+}
