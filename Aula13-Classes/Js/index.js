@@ -16,5 +16,11 @@ document.getElementById("carro1").innerHTML =
 ", Ano: " + sandero.ano +
 ", Motor: " + sandero.motor;
 
+document.getElementById("carro2").innerHTML = 
+"Carro 2 = Marca: " + polo.marca +
+", Modelo: " + polo.modelo +
+", Ano: " + polo.ano +
+", Motor: " + polo.motor;
+
 console.log(sandero);
 console.log(polo);
